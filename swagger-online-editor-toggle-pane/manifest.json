@@ -1,0 +1,17 @@
+{
+  "name": "Resize Swagger Editor Preview Pane",
+  "description": "Resize Swagger Editor preview pane width",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Resize Swagger Editor preview pane width",
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
